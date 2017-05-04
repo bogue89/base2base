@@ -2,7 +2,7 @@
 Base2Base PHP Function
 ------------
 
-`base2base` is a function I wrote for a CakePHP 3 model behavior that generate a non incremental string as primary key. But I find myself using it for more than that so I'm sharing it.
+`base2base` is a function I wrote for a CakePHP 3 model behavior that generate a non incremental string as primary key. But I find myself using it for more than expected, so I'm sharing it.
 
 `base2base` function is an upgrade of the `base_convert()` php function, by extending the "between 2 and 36" base limit it has.
 You can declare any base setting the values in the position you want.
